@@ -90,11 +90,11 @@ The Kalman filter implementation can be found [src/kalman_filter.cpp](./src/kalm
 
 ### Your Kalman Filter algorithm handles the first measurements appropriately.
 
-The first measurement is handled at [src/FusionEKF.cpp](./src/kalman_filter.cpp#L61) from line 84 to line 112.
+The first measurement is handled at [src/FusionEKF.cpp](./src/FusionEKF.cpp#L84) from line 84 to line 112.
 
 ### Your Kalman Filter algorithm first predicts then updates.
 
-The predict operation could be found at [src/FusionEKF.cpp](./src/kalman_filter.cpp#L147) line 149 and the update operation from line 160 to 175 of the same file.
+The predict operation could be found at [src/FusionEKF.cpp](./src/FusionEKF.cpp#L147) line 149 and the update operation from line 160 to 175 of the same file.
 
 ### Your Kalman Filter can handle radar and lidar measurements.
 
